@@ -1,5 +1,6 @@
 <!-- * * * * * curl https://raw.githubusercontent.com/DO-Solutions/docker-cron/refs/heads/main/poem.json >/proc/1/fd/1 2>/proc/1/fd/2 -->
 
-- - - - - cd / && bundle exec whenever --update-crontab >> /log/cron.log 2>&1
+* * * * * cd / && bundle exec whenever --update-crontab >> /log/cron.log 2>&1
 
 # An empty line is required at the end of this file for a valid cron file.
+
